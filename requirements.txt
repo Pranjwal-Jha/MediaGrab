@@ -1,0 +1,25 @@
+# MediaGrab Backend Dependencies
+# Core web framework
+fastapi==0.109.0
+uvicorn==0.27.0
+
+# Video/Audio downloading
+yt-dlp==2023.12.30
+
+# Data validation and parsing
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# File handling and utilities
+aiofiles==0.8.0
+python-multipart==0.0.5
+
+# Optional: Database support (uncomment if needed)
+# sqlalchemy==1.4.46
+# databases[sqlite]==0.7.0
+
+# Development dependencies (optional)
+# pytest==7.4.3
+# pytest-asyncio==0.21.1
+# black==23.11.0
+# flake8==6.1.0
