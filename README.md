@@ -2,9 +2,9 @@
 
 A modern, full-stack application for downloading content from YouTube and Instagram with an attractive web interface.
 
-![MediaGrab Banner](https://via.placeholder.com/800x200/6366f1/ffffff?text=MediaGrab+-+YouTube+%26+Instagram+Downloader)
+<!-- ![MediaGrab Banner](https://via.placeholder.com/800x200/6366f1/ffffff?text=MediaGrab+-+YouTube+%26+Instagram+Downloader) -->
 
-## ✨ Features
+##  Features
 
 - **🎬 YouTube Downloads**: Support for videos, playlists, and audio extraction
 - **📸 Instagram Content**: Download reels, stories, posts, and IGTV
@@ -15,7 +15,7 @@ A modern, full-stack application for downloading content from YouTube and Instag
 - **🎯 Quality Options**: Choose from multiple video qualities (up to 4K) and audio formats
 - **📱 Mobile Friendly**: Fully responsive design for all devices
 
-## 🏗️ Tech Stack
+<!-- ## 🏗️Tech Stack -->
 
 ### Frontend
 - **Next.js 15** - React framework
@@ -52,7 +52,7 @@ A modern, full-stack application for downloading content from YouTube and Instag
    ```bash
    # Install Python dependencies
    pip install -r requirements.txt
-   
+
    # Create downloads directory
    mkdir downloads
    ```
@@ -79,7 +79,7 @@ A modern, full-stack application for downloading content from YouTube and Instag
    ```
    The web interface will be available at `http://localhost:3000`
 
-## 📖 Usage
+##  Usage
 
 ### Web Interface
 
@@ -119,7 +119,7 @@ A modern, full-stack application for downloading content from YouTube and Instag
 - **OPUS** - Efficient compression
 - **WAV** - Uncompressed audio
 
-## 🔧 Configuration
+##  Configuration
 
 ### Environment Variables
 
@@ -148,7 +148,7 @@ allow_origins=["http://localhost:3000", "https://yourdomain.com"]
 uvicorn.run("main:app", host="0.0.0.0", port=8000)
 ```
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 mediagrab/
@@ -166,7 +166,7 @@ mediagrab/
 └── README.md
 ```
 
-## 🎨 UI Components
+##  UI Components
 
 The application uses shadcn/ui components for a consistent and modern interface:
 
@@ -179,14 +179,14 @@ The application uses shadcn/ui components for a consistent and modern interface:
 - **Dialog** - Modal windows
 - **Badge** - Status indicators
 
-## 🔐 Security Notes
+##  Security Notes
 
 - The application runs locally by default
 - No user data is stored permanently
 - Downloads are saved locally in the `downloads/` directory
 - CORS is configured for local development
 
-## 🚀 Deployment
+##  Deployment
 
 ### Frontend (Vercel/Netlify)
 
@@ -208,7 +208,7 @@ The application uses shadcn/ui components for a consistent and modern interface:
    pm2 start main.py --name mediagrab-api
    ```
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -216,7 +216,7 @@ The application uses shadcn/ui components for a consistent and modern interface:
 4. Add tests if applicable
 5. Submit a pull request
 
-## 📝 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
@@ -224,7 +224,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 This tool is for personal use only. Please respect the terms of service of YouTube and Instagram. Do not use this tool to download copyrighted content without permission.
 
-## 🆘 Troubleshooting
+<!-- ## 🆘 Troubleshooting -->
 
 ### Common Issues
 
@@ -248,7 +248,7 @@ This tool is for personal use only. Please respect the terms of service of YouTu
 - Check the [Issues](https://github.com/yourusername/mediagrab/issues) page
 - Create a new issue with detailed information
 - Include error messages and steps to reproduce
-
+<!--
 ## 🙏 Acknowledgments
 
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp) - The powerful downloader backend
@@ -258,4 +258,4 @@ This tool is for personal use only. Please respect the terms of service of YouTu
 
 ---
 
-Made with ❤️ by [Your Name]
+Made with ❤️ by [Your Name] -->
