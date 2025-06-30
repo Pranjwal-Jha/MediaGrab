@@ -4,7 +4,7 @@ fastapi==0.109.0
 uvicorn==0.27.0
 
 # Video/Audio downloading
-yt-dlp==2023.12.30
+yt-dlp
 
 # Data validation and parsing
 pydantic==2.5.3
