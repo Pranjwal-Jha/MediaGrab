@@ -185,13 +185,13 @@ deploy_docker() {
         exit 1
     fi
 
-    if ! command_exists docker-compose; then
+    if ! command_exists docker compose; then
         log_error "Docker Compose not found! Please install Docker Compose first."
         exit 1
     fi
 
     # Build and start containers
-    docker-compose up --build -d
+    docker compose up --build -d
 
     log_success "Docker deployment started!"
     log_info "Application: http://localhost:$NGINX_PORT"
@@ -199,7 +199,7 @@ deploy_docker() {
     log_info "Frontend: http://localhost:$FRONTEND_PORT"
 
     # Show container status
-    docker-compose ps
+    docker compose ps
 }
 
 # Stop Docker deployment
